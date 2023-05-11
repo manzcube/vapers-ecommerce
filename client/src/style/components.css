@@ -1,0 +1,128 @@
+
+/* navbar */
+
+#logo {
+    font-size: 3.5ch;
+    font-weight: 900;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 0.5ch;
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar {
+    background: #1b1b1b;
+    padding: 4ch;
+    font-size: .9ch;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.navbar-links {
+    display: flex;
+    gap: 4ch;
+    display: flex;
+    align-items: center;
+    font-size: 2.5ch;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 1ch 2ch;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-links a:hover {
+    background: #373737;
+    transition: all .3s ease-in-out;
+}
+
+#sign-in-button {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 1ch 2ch;
+    transition: all .3s ease-in-out;
+}
+
+#sign-in-button:hover {
+    background-color: white;
+    color: #1b1b1b;
+    transition: all .3s ease-in-out;
+}
+
+
+/* Button */
+
+.button {
+    text-decoration: none;
+    border: 1px solid #2e2e2e;
+    padding: 1ch;
+    background: white;
+    transition: all .3s ease-in-out;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    display: flex;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background: #2e2e2e;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+/* Inputs */
+
+.input-pack {
+    display: flex;
+    flex-direction: column;
+    margin: 3ch auto;
+    text-align: start;
+}
+
+.input-label {
+    font-size: small;
+    text-transform: capitalize;
+    margin: 1ch 0;
+    color: #717171;
+}
+
+.input {
+    padding: 2ch;
+    width: 45ch;
+    border: none;
+    color: #626262;
+    border-bottom: 2px solid rgb(22, 146, 255);
+    background-color: #ececec;
+    border-radius: 3px;
+    outline: none;
+    font-size: small;
+}
+
+.input:focus {
+    outline: none;
+}
+
+
+/* Footer*/
+
+#footer {
+    padding: 3ch;
+    background-color: #1b1b1b;
+    font-size: 1.3ch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer > div {
+    color: #c5c5c5;
+    font-weight: 300;
+}

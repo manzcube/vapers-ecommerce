@@ -1,0 +1,179 @@
+#sign-in-dashboard {
+    width: 100%;
+    max-width: 60ch;
+}
+
+#register-dashboard {
+    width: 100%;
+    max-width: 80ch;
+}
+
+.register-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.credentials-hub {
+    margin: 4ch 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
+}
+.register-button {
+    padding: 7ch;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.credentials-buttons {
+    width: 37ch;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.credentials-button-1 {
+    border: 1px solid rgb(216, 216, 216);
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+    padding: 2ch 3ch;
+    border-radius: 3px;
+    background-color: white;
+    transition: all .3s ease-in-out;
+}
+.credentials-button-1:hover {
+    border: 1px solid black;
+    transition: all .3s ease-in-out;
+}
+
+#credentials-button-3 {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(237, 54, 38);
+    color: white;
+    padding: 2ch 3ch;
+    text-decoration: none;
+    font-size: 1.3ch;
+    font-weight: 400;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+#credentials-button-3:hover {
+    transition: all .3s ease-in-out;
+    opacity: .8;
+}
+
+.credentials-button-2 {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(27, 108, 200);
+    color: white;
+    padding: 2ch 3ch;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+.credentials-button-2:hover {
+    transition: all .3s ease-in-out;
+    opacity: .8;
+}
+
+.button-hub {
+    margin: 4ch 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1ch;
+}
+
+.button-hub button {
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 30ch;
+    display: flex;
+    padding: 2ch;
+    font-size: 1.5ch;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
+}
+.button-hub button:hover {
+    opacity: .8;
+}
+.button-hub button:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+span {
+    font-weight: 900;
+    font-size: 2.5ch;
+    position: absolute;
+    left: 2ch;
+    margin: 0;
+}
+
+#close-cross a {
+    position: absolute;
+    right: 5ch;
+    top: 15ch;
+    width: 3ch;
+    color: #0a66c2;
+    z-index: 10;
+}
+h1 {
+    font-size: 3ch;
+    color: #3f3f3f;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 1.5ch;
+}
+a {
+    color: rgb(60, 157, 192);
+}
+
+.icon {
+    width: 2ch;
+}
+
+#google-button img {
+    width: 1.5ch;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+#facebook-button {
+    background: #1877f2;
+}
+#google-button {
+    background: #dd4b39;
+}
+#linkedin-button {
+    background: #0a66c2;
+}
+#email-button {
+    background: #fff;
+    border: 1px solid rgb(76, 190, 231);
+    color: rgb(76, 190, 231);
+    transition: all .3s ease-in-out;
+}
+#email-button svg {
+    margin-top: 3px;
+}
+
+#email-button:hover {
+    transition: all .2s ease-in-out;
+    color: white;
+    background-color: rgb(76, 190, 231);
+}
+
+
