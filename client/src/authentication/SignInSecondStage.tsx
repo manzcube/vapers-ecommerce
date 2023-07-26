@@ -6,9 +6,14 @@ type LoginProps = {
     setCurrentStage: (stage: boolean) => void
 }
 
+interface formData {
+    email: string
+    password: string
+}
+
 const SignInSecondStage = ({ setCurrentStage }: LoginProps) => {
     const [loginStage, setLoginStage] = useState(true)
-    const [formData, setformData] = useState({
+    const [formData, setformData] = useState<formData>({
         email: "",
         password: ""
     })

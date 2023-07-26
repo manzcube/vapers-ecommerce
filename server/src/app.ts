@@ -34,7 +34,9 @@ app.options(
 app.get('/', (req, res) => {
   res.status(200).json({ message: "Tu madre me lo mama" });
 });
-
+app.get('/home', (req, res) => {
+  res.status(200).json({ message: "Tu madre me lo mama" });
+});
 app.listen(5000, () => {
   console.log('Server listening on port 5000');
 });

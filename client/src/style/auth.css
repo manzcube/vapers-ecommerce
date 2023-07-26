@@ -1,16 +1,21 @@
 #sign-in-dashboard {
     width: 100%;
+    height: 100vh;
     max-width: 60ch;
+    padding: 20ch;
 }
 
 #register-dashboard {
     width: 100%;
-    max-width: 80ch;
+    height: 100vh;
+    margin-top: 20ch;
+    max-width: 120ch;
 }
 
 .register-fields {
     display: flex;
     flex-wrap: wrap;
+    gap: 2ch;
 }
 
 .credentials-hub {
